@@ -1,0 +1,834 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(238, 237, 237);
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    width: 100%;
+    height: 4000px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-light{
+    height: auto;
+    padding: 10px 10px;
+}
+.navbar-light .navbar-brand {
+    width: 200px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-light a{
+    padding: 10px 20 10px 30px;
+    font-size: 15px;
+    color: #004289 !important;
+    font-weight: 500;
+}
+
+.navbar-light a:hover{
+    color: #007bff !important;
+}
+
+
+/* End navbarrrrrrrrrrrrrrrrrrrrrrrrr */
+
+ .jumbotron{
+    position: relative;
+    width: 101.2%;
+    height: auto;
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    padding: 120px 0px;
+ }
+
+ .jumbotron .container h1{
+    color: #fff;
+    font-size: 55px;
+}
+
+.jumbotron .container h1 u{
+    color: #74b5fc;
+    font-size: 60px;
+}
+.jumbotron .btn-primary{
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 7px 35px;
+}
+.jumbotron .btn-secondary{
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    background-color: #007bff00;
+    padding: 7px 35px;
+    margin-left: 10px;
+}
+.jumbotron .btn-primary:hover{
+    background-color: #007bff00;
+    border: 2px #fff solid;
+}
+.jumbotron .btn-secondary:hover{
+    border: 1px #007bff solid;
+    background-color: #007bff;
+}
+
+
+
+
+
+/* End headddddddddddd */
+
+.aboutus{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.aboutus h1{
+    text-align: center;
+}
+
+.aboutus p{
+    text-align: center;
+}
+
+.headdd .row .col-md-2 h2 i{
+    font-size: 30px;
+    color: #007bff;
+    border: #007bff 2px solid;
+    border-radius: 50%;
+    padding: 15px 15px;
+    transition: 0.5s;
+}
+.headdd .row .col-md-2 h2 i:hover{
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+
+/* <!-- End about ussssssssssssssssssssssssssss --> */
+
+.servvv{
+    background-color: #ecf5ff;
+    padding-bottom: 50px;
+}
+.servvv .Services{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.servvv .Services h1{
+    text-align: center;
+}
+
+.servvv .Services p{
+    text-align: center;
+}
+.servvv .sevtims{
+   margin: auto;
+}
+.servvv .sevtims .serv-item{
+    background-color: #fff;
+    border: #ecf5ff solid 1px;
+    border-radius: 10px;
+    margin: 30px 0px;
+    transition: 0.5s;
+}
+.servvv .sevtims .serv-item:hover h5{
+    color: #007bff;
+}
+.servvv .sevtims .serv-item:hover{
+    padding-top: 20px;
+}
+.servvv .sevtims .serv-item h5{
+    padding-top: 10px;
+}
+.servvv .sevtims .serv-item p{
+    padding-top: 10px;
+}
+.servvv .sevtims .serv-item h2 i{
+    padding-top: 50px;
+}
+
+.servvv .sevtims .serv-item .fa-briefcase{
+    font-size: 64px;
+    color: #ff689b;
+}
+.servvv .sevtims .serv-item .fa-list-check{
+    font-size: 64px;
+    color: #e9bf06;
+}
+.servvv .sevtims .serv-item .fa-signal{
+    font-size: 60px;
+    color: #3fcdc7;
+}
+.servvv .sevtims .serv-item .fa-binoculars{
+    font-size: 64px;
+    color: #41cf2e;
+}
+.servvv .sevtims .serv-item .fa-lightbulb{
+    font-size: 64px;
+    color: #d6ff22;
+}
+.servvv .sevtims .serv-item .fa-calendar-days{
+    font-size: 64px;
+    color: #4680ff;
+}
+
+
+/* End servicessssssssssssssssssssss */
+
+
+.choose-us{
+    background-color:#004a99;
+    color: #fff;
+}
+.choose-title{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.choose-title h1{
+    text-align: center;
+}
+
+.choose-title p{
+    text-align: center;
+}
+
+/* .choose-us .reasons{
+    margin: auto
+} */
+.choose-us .reasons{
+    padding: 10px 0px 100px;
+}
+.choose-us .reasons .reason{
+    background-color: #00458f;
+    border:#00458f 1px solid;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.choose-us .reasons .reason:hover{
+    background-color: #012b58;
+}
+.choose-us .reasons .reason i{
+    color: #bfddfe;
+    font-size: 48px;
+    padding: 10px 0px 10px 40%;
+}
+.choose-us .reasons .reason a{
+    color: #fff;
+    padding: 10px 0px 10px 35%;
+}
+
+.choose-us .reasons .reason p{
+    color: #bfddfe;
+    text-align: center;
+    padding: 10px 0px 10px;
+}
+
+.counter {
+    padding-bottom: 55px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+
+
+/* <!-- End choose usssssssssssssssssssssss --> */
+
+
+.portfolio{
+    background-color: #fff;
+    margin: 50px 0px;
+}
+.portfolio .btn{
+    background-color: #ecf5ff;
+    border: #007bff solid 1px;
+    color: #007bff;
+}
+.buttons{
+    padding: 30px 0px 20px 0px;
+}
+.tab-content{
+    width: 100%;
+}
+.tab-pane img{
+    border: rgba(255, 255, 255, 0.236) 1px solid;
+    border-radius: 10px;
+}
+
+.pic{
+    position: relative;
+    overflow: hidden;
+}
+.pic .caption{
+    background-color: #012b58af;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border: #012b58af 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transition: 0.5s;
+    display: none;
+}
+.pic .caption h3{
+    padding: 20px 0px 0px;
+    color: #fff;
+}
+.pic .caption h5{
+    padding: 10px 0px;
+    color: #fff;
+}
+.pic .caption a{
+    width: 30%;
+    padding-left: 20%;
+}
+.pic .caption a i{
+    font-size: 25px;
+    margin: 10px;
+    color: #007bff;
+    padding: 10px 0px 0px;
+}
+.pic:hover .caption{
+    display: block;
+}
+
+
+/* End protfoliooooooooooooo */
+
+
+
+.testimonials{
+    background-color: #ecf5ff;
+}
+
+.carousel-inner .carousel-item .mb-3{
+    padding-left: 30%;
+    margin: auto;
+}
+.carousel-inner .carousel-item .mb-3 .img-person{
+    padding-top: 5%;
+}
+.rounded-circle{
+    border: 4px #fff solid;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    border: #007bff 1px solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.carousel .carousel-indicators li.active {
+    background-color: #007bff;
+    border: #007bff 1px solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+/* End Testimonialssssssssssssssss */
+
+
+.team{
+    background-color: #fff;
+    padding: 20px 0px 100px;
+}
+.team-title{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.team .team-title h1{
+    text-align: center;
+}
+
+.team .team-title p{
+    text-align: center;
+}
+
+.team-members{
+    width: 95%;
+    margin: auto;
+}
+.team-members .member-pic{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+.member-pic .caption{
+    background-color: #012b58af;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: #012b58af 1px solid;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transition: 0.5s;
+    display: none;
+}
+.member-pic .caption h3{
+    padding: 40px 0px 0px;
+    color: #fff;
+}
+.member-pic .caption h5{
+    padding: 10px 0px;
+    color: #fff;
+}
+.member-pic .caption a{
+    padding-left: 40px;
+}
+.member-pic .caption a i{
+    font-size: 25px;
+    color: rgb(135, 135, 135);
+    padding: 10px 0px 0px;
+    transition: 0.5s;
+}
+.member-pic .caption a i:hover{
+    color: #fff;
+}
+.member-pic:hover .caption{
+    display: block;
+}
+
+
+
+/* End Teammmmmmmmmmmmmmmmmmmmmmmm */
+
+.clients{
+    background-color: #ecf5ff;
+    padding-bottom: 100px;
+}
+.clients .container .cliens-title{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.clients .container .cliens-title h1{
+    text-align: center;
+}
+
+.clients .container .cliens-title p{
+    text-align: center;
+}
+
+.clients .container .logos{
+    background-color: #fff;
+}
+.container .logos .logo1{
+    height: 160px;
+    border: 1px solid #ecf5ff;
+}
+.clients .container .logos .logo1 .imglogo{
+    width: 90%;
+    height: 90%;
+}
+.clients .container .logos .logo1 .imglogo .img-fluid{
+    padding: 60px 0px 0px 60px;
+    width: 80%;
+    height: 80%;
+    transition: 1s;
+}
+.clients .container .logos .logo1 .imglogo:hover .img-fluid{
+    padding: 40px 0px 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End clientssssssssssssssssssssss */
+
+.contactus{
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.contactus .contactus-title{
+    padding: 50px 0px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 600px;
+    width: 500px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 450px;
+    width: 550px;
+}
+
+.contactus i{
+    font-size: 32px;
+    color: #007bff;
+}
+.info{
+    margin-left: 10px;
+    width: 100%;
+    padding: 0px;
+}
+.pin{
+    padding: 5px;
+}
+.right form button{
+    margin-left: 200px;
+}
+
+
+/* <!-- End Contact Usssssssssssssssssssssss --> */
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #004a99;
+  position: relative;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 0.327);
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #fff;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #fff;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #fff;
+  border: 1px solid #007bff;
+  color: #fff;
+  transition: 0.5px;
+}
+.subscribe-form input:hover{
+    background-image: linear-gradient(to left, #007bff,aqua, #fff);
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #012b58;
+    padding: 13px 20px;
+    border: 1px solid #fff;
+    top: 0;
+    transition: 0.5px;
+}
+.subscribe-form button:hover {
+    background-image: linear-gradient(to left, #007bff,aqua, #fff);
+}
+.subscribe-form button i{
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+  transition: 0.5px;
+}
+.subscribe-form button:hover i{
+    background-color: aqua;
+}
+.copyright-area{
+  background: #00428a;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: aqua;
+  transition: 0.5s;
+}
+.copyright-text p a:hover{
+    font-size: 25px;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #fff;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+/* End Footerrrrrrrrrrrrrrrrrrrrr */
+
+
+@media screen and (max-width:600px) {
+    .jumbotron{
+        width: 104%;
+    }
+    .jumbotron .container{
+        width: 100%;
+        text-align: center;
+     }
+     .jumbotron .container h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .jumbotron .container h1 u{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .jumbotron .btn-secondary{
+        margin: 30px 0px 10px 10px;
+    }
+
+    .aboutus{
+        width: 95%;
+    }
+    .headdd .row .col-md-2{
+        width: 100%;
+        text-align: center;
+    }
+    .headdd .row .col-md-10 h5{
+        text-align: center;
+    }
+    .headdd .row .col-md-10 p{
+        text-align: center;
+    }
+
+    .headdd .row .col-md-2 h2 i{
+        font-size: 25px;
+        padding: 15px 15px;
+    }
+    .headdd h3{
+        width: 100%;
+        text-align: center;
+    }
+    .headdd p{
+        width: 100%;
+    }
+
+
+    .servvv .Services{
+        width: 95%;
+    }
+    .servvv .sevtims .serv-item{
+        margin: 30px 0px;
+        text-align: center;
+    }
+
+
+    .choose-title{
+        width: 95%;
+        padding: 50px 0px;
+    }
+    .choose-us .reasons{
+        width: 95%;
+        margin: auto;
+        padding: 10px 10px;
+    }
+    .choose-us .reasons .reason i{
+        padding: 10px 0px 10px 45%;
+    }
+    .choose-us .reasons .reason a{
+        padding: 10px 0px 10px 35%;
+    }
+
+
+
+    .carousel-inner .carousel-item .mb-3{
+        padding-left: 10%;
+    }
+    .carousel-inner .carousel-item .mb-3 .img-person{
+        padding-top: 5%;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+    .carousel-inner .carousel-item .card-body{
+        text-align: center;
+    }
+
+    
+    .team{
+        padding: 20px 0px 100px;
+    }
+    .team-title{
+        width: 95%;
+    }
+    .team-members .member-pic{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+    .member-pic .caption h3{
+        padding: 40px 0px 0px;
+    }
+    .member-pic .caption h5{
+        padding: 10px 0px;
+    }
+    .member-pic .caption a{
+        padding-left: 50px;
+    }
+    .member-pic .caption a i{
+        font-size: 25px;
+        padding: 10px 0px 0px;
+    }
+
+    .clients .container .cliens-title{
+        width: 95%;
+    }
+    .container .logos{
+        width: 100%;
+        margin: auto;
+    }
+    
+
+    .mapouter {
+        height: 350px;
+        width: 325px;
+    }
+    .gmap_canvas {
+        height: 350px;
+        width: 325px;
+    }
+    
+    .contactus i{
+        font-size: 32px;
+    }
+    .info{
+        margin-left: 10px;
+        width: 100%;
+        padding: 0px;
+    }
+    .pin{
+        width: 95%;
+        padding: 5px;
+    }
+    .right form button{
+        margin-left: 90px;
+    }
+    
+    .fa-bars{
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    .fa-bars:hover{
+        color: #007bff;
+    }
+}
